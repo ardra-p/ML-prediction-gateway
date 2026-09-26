@@ -1,0 +1,28 @@
+# Virtual environments — covers model_service/venv/ and gateway/venv/
+venv/
+env/
+*.egg-info/
+
+# Python cache/bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets — you'll add this in Phase 4 (JWT secret) and Phase 7 (Redis config)
+.env
+.env.local
+
+# Docker
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Load test output (Phase 8) — keep results.md, ignore raw tool output if any
+load_test/*.txt
+load_test/*.out
