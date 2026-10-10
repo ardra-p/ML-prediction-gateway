@@ -25,7 +25,7 @@ ml-prediction-gateway/
 │
 ├── gateway/
 │   ├── venv/
-│   ├── main.py             # in progress — httpx forwarding call
+│   ├── main.py             # Done— httpx forwarding call
 │   ├── auth.py              # not started — Phase 4
 │   ├── rate_limiter.py      # not started — Phase 5
 │   ├── cache.py              # not started — Phase 6
